@@ -1,0 +1,15 @@
+C:\Users\48527217856\Desktop\Projeto-promocao\obj\Debug\net7.0\Projeto-promocao.csproj.AssemblyReference.cache
+C:\Users\48527217856\Desktop\Projeto-promocao\obj\Debug\net7.0\Projeto-promocao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48527217856\Desktop\Projeto-promocao\obj\Debug\net7.0\Projeto-promocao.AssemblyInfoInputs.cache
+C:\Users\48527217856\Desktop\Projeto-promocao\obj\Debug\net7.0\Projeto-promocao.AssemblyInfo.cs
+C:\Users\48527217856\Desktop\Projeto-promocao\obj\Debug\net7.0\Projeto-promocao.csproj.CoreCompileInputs.cache
+C:\Users\48527217856\Desktop\Projeto-promocao\bin\Debug\net7.0\Projeto-promocao.exe
+C:\Users\48527217856\Desktop\Projeto-promocao\bin\Debug\net7.0\Projeto-promocao.deps.json
+C:\Users\48527217856\Desktop\Projeto-promocao\bin\Debug\net7.0\Projeto-promocao.runtimeconfig.json
+C:\Users\48527217856\Desktop\Projeto-promocao\bin\Debug\net7.0\Projeto-promocao.dll
+C:\Users\48527217856\Desktop\Projeto-promocao\bin\Debug\net7.0\Projeto-promocao.pdb
+C:\Users\48527217856\Desktop\Projeto-promocao\obj\Debug\net7.0\Projeto-promocao.dll
+C:\Users\48527217856\Desktop\Projeto-promocao\obj\Debug\net7.0\refint\Projeto-promocao.dll
+C:\Users\48527217856\Desktop\Projeto-promocao\obj\Debug\net7.0\Projeto-promocao.pdb
+C:\Users\48527217856\Desktop\Projeto-promocao\obj\Debug\net7.0\Projeto-promocao.genruntimeconfig.cache
+C:\Users\48527217856\Desktop\Projeto-promocao\obj\Debug\net7.0\ref\Projeto-promocao.dll
