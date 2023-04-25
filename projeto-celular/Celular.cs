@@ -5,29 +5,30 @@ namespace projeto_celular
         public string cor;
         public string modelo;
         public float tamanho;
-        public bool ligado;
+        public bool ligado = false;
         
         public string ligar()
         {
             ligado =true;
             Console.WriteLine($"O celular ligou");
-            return 0;
+            return "";
         }
         
         public string ligacao()
         {
             Console.WriteLine($"Chamada efetuada.");
-            return 0;
+            return "";
         }
         public string mensagem()
         {
-            Console.WriteLine($"chamada enviada com sucesso.");
-            return 0;
+            Console.WriteLine($"mensagem enviada com sucesso.");
+            return "";
         }
         public string desligar()
-        { ligado=false;
+        {
+            ligado=false;
             Console.WriteLine($"o celular desligou.");
-            return 0;
+            return "";
         }
     }
 }
