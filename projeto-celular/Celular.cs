@@ -9,6 +9,7 @@ namespace projeto_celular
         
         public string ligar()
         {
+            ligado =true;
             Console.WriteLine($"O celular ligou");
             return 0;
         }
@@ -24,7 +25,7 @@ namespace projeto_celular
             return 0;
         }
         public string desligar()
-        {
+        { ligado=false;
             Console.WriteLine($"o celular desligou.");
             return 0;
         }

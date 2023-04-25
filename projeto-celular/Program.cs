@@ -1,9 +1,10 @@
 ﻿using projeto_celular;
 
-Celular celular = new Celular();
-
 Console.WriteLine($"Qual a cor do celular?");
 celular.cor = Console.ReadLine();
+Celular celular = new Celular();
+
+
 
 Console.WriteLine($"Qual o modelo do celular?");
 celular.modelo = Console.ReadLine();
@@ -12,12 +13,19 @@ Console.WriteLine($"Qual o tamanho do celular?");
 celular.tamanho = float.Parse(Console.ReadLine());
 
 Console.WriteLine($"Voce quer ligar o celular?");
-celular.ligado = Console.ReadLine()=="sim";
+string resposta = Console.ReadLine(); 
 
-if (celular.ligado)
-{
-    celular.ligar();
+    if(resposta = "sim")
+    {
+        celular.ligar()
+    }
+    else
+    {
+        celuar.desligar()
+    }
+    
+while(celuar.ligado=true)
+    {
     celular.ligacao();
     celular.mensagem();
-    celular.desligar();
-}
+    }
