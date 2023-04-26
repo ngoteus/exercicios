@@ -10,23 +10,23 @@ namespace projeto_celular
         public string ligar()
         {
             Console.WriteLine($"O celular ligou");
-            return 0;
+            return "0";
         }
         
         public string ligacao()
         {
             Console.WriteLine($"Chamada efetuada.");
-            return 0;
+            return "0";
         }
         public string mensagem()
         {
             Console.WriteLine($"chamada enviada com sucesso.");
-            return 0;
+            return "0";
         }
         public string desligar()
         {
             Console.WriteLine($"o celular desligou.");
-            return 0;
+            return "0";
         }
     }
 }
