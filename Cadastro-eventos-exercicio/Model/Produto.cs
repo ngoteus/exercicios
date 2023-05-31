@@ -1,3 +1,5 @@
+
+
 namespace Cadastro_eventos_exercicio.Model
 {
     public class Produto
@@ -16,7 +18,7 @@ namespace Cadastro_eventos_exercicio.Model
             {
                 Directory.CreateDirectory(pasta);
             }
-            if (File.Exists(PATH))
+            if (!File.Exists(PATH))
             {
                 File.Create(PATH);
             }
@@ -49,6 +51,8 @@ namespace Cadastro_eventos_exercicio.Model
         public void Inserir(Produto p)
         {
             string[] linhas = {PrepararLinhasCSV(p)};
+
+            File.AppendAllLines(PATH, linhas);
         }
 
     }

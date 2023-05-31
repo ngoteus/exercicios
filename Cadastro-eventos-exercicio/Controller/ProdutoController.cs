@@ -1,16 +1,16 @@
-using Console_mvc.Model;
-using Console_mvc.View;
+using Cadastro_eventos_exercicio.Model;
+using Cadastro_eventos_exercicio.View;
 
 namespace Cadastro_eventos_exercicio.Controller
 {
     public class ProdutoController
     {
         Produto produto = new Produto();
-        Produtoview produtoview = new Produtoview();
+        ProdutoView produtoview = new ProdutoView();
 
         public void ListarProdutos()
         {
-            List<Produto> produtos = produtos.Ler();
+            List<Produto> produtos = produto.Ler();
 
             produtoview.Listar(produtos);
         }

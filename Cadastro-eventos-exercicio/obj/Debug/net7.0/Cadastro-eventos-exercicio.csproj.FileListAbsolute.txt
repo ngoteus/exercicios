@@ -1,0 +1,15 @@
+C:\Users\48527217856\Desktop\exercicios\Cadastro-eventos-exercicio\obj\Debug\net7.0\Cadastro-eventos-exercicio.csproj.AssemblyReference.cache
+C:\Users\48527217856\Desktop\exercicios\Cadastro-eventos-exercicio\obj\Debug\net7.0\Cadastro-eventos-exercicio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48527217856\Desktop\exercicios\Cadastro-eventos-exercicio\obj\Debug\net7.0\Cadastro-eventos-exercicio.AssemblyInfoInputs.cache
+C:\Users\48527217856\Desktop\exercicios\Cadastro-eventos-exercicio\obj\Debug\net7.0\Cadastro-eventos-exercicio.AssemblyInfo.cs
+C:\Users\48527217856\Desktop\exercicios\Cadastro-eventos-exercicio\obj\Debug\net7.0\Cadastro-eventos-exercicio.csproj.CoreCompileInputs.cache
+C:\Users\48527217856\Desktop\exercicios\Cadastro-eventos-exercicio\bin\Debug\net7.0\Cadastro-eventos-exercicio.exe
+C:\Users\48527217856\Desktop\exercicios\Cadastro-eventos-exercicio\bin\Debug\net7.0\Cadastro-eventos-exercicio.deps.json
+C:\Users\48527217856\Desktop\exercicios\Cadastro-eventos-exercicio\bin\Debug\net7.0\Cadastro-eventos-exercicio.runtimeconfig.json
+C:\Users\48527217856\Desktop\exercicios\Cadastro-eventos-exercicio\bin\Debug\net7.0\Cadastro-eventos-exercicio.dll
+C:\Users\48527217856\Desktop\exercicios\Cadastro-eventos-exercicio\bin\Debug\net7.0\Cadastro-eventos-exercicio.pdb
+C:\Users\48527217856\Desktop\exercicios\Cadastro-eventos-exercicio\obj\Debug\net7.0\Cadastro-eventos-exercicio.dll
+C:\Users\48527217856\Desktop\exercicios\Cadastro-eventos-exercicio\obj\Debug\net7.0\refint\Cadastro-eventos-exercicio.dll
+C:\Users\48527217856\Desktop\exercicios\Cadastro-eventos-exercicio\obj\Debug\net7.0\Cadastro-eventos-exercicio.pdb
+C:\Users\48527217856\Desktop\exercicios\Cadastro-eventos-exercicio\obj\Debug\net7.0\Cadastro-eventos-exercicio.genruntimeconfig.cache
+C:\Users\48527217856\Desktop\exercicios\Cadastro-eventos-exercicio\obj\Debug\net7.0\ref\Cadastro-eventos-exercicio.dll

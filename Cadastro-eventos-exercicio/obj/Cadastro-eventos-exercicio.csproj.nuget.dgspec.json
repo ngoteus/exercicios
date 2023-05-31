@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\48527217856\\Desktop\\Cadastro-eventos-exercicio\\Cadastro-eventos-exercicio.csproj": {}
+    "C:\\Users\\48527217856\\Desktop\\exercicios\\Cadastro-eventos-exercicio\\Cadastro-eventos-exercicio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\48527217856\\Desktop\\Cadastro-eventos-exercicio\\Cadastro-eventos-exercicio.csproj": {
+    "C:\\Users\\48527217856\\Desktop\\exercicios\\Cadastro-eventos-exercicio\\Cadastro-eventos-exercicio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\48527217856\\Desktop\\Cadastro-eventos-exercicio\\Cadastro-eventos-exercicio.csproj",
+        "projectUniqueName": "C:\\Users\\48527217856\\Desktop\\exercicios\\Cadastro-eventos-exercicio\\Cadastro-eventos-exercicio.csproj",
         "projectName": "Cadastro-eventos-exercicio",
-        "projectPath": "C:\\Users\\48527217856\\Desktop\\Cadastro-eventos-exercicio\\Cadastro-eventos-exercicio.csproj",
+        "projectPath": "C:\\Users\\48527217856\\Desktop\\exercicios\\Cadastro-eventos-exercicio\\Cadastro-eventos-exercicio.csproj",
         "packagesPath": "C:\\Users\\48527217856\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\48527217856\\Desktop\\Cadastro-eventos-exercicio\\obj\\",
+        "outputPath": "C:\\Users\\48527217856\\Desktop\\exercicios\\Cadastro-eventos-exercicio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\48527217856\\AppData\\Roaming\\NuGet\\NuGet.Config",
