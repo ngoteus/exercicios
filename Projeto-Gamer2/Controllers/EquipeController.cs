@@ -37,7 +37,7 @@ namespace Projeto_Gamer2.Controllers
         {
             Equipe novaEquipe = new Equipe();
 
-            // novaEquipe.Nome = form["Nome"].ToString();
+            novaEquipe.Nome = form["Nome"].ToString();
             // novaEquipe.Imagem = form["Imagem"].ToString();
             //logica de upload
             
@@ -68,10 +68,21 @@ namespace Projeto_Gamer2.Controllers
             c.Equipe.Add(novaEquipe);
 
             c.SaveChanges();
-
-            ViewBag.Equipe = c.Equipe.ToList();
+            
 
             return LocalRedirect("~/Equipe/Listar");
+        }
+
+        [Route("Excluir/{id}")]
+        public IActionResult Excluir(int id)
+        {
+                Equipe equipeBuscada = c.Equipe.FirstOrDefault(e => e.IdEquipe == id);
+
+                c.Remove(equipeBuscada);
+
+                c.SaveChanges();
+
+                return LocalRedirect("~/Equipe/Listar");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
