@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9+EZ47lnHeJr8kbT5xTDXwpSxobABQ5NHxxAKiWQsUU=",
+  "Hash": "kGYMB62swNWnwn/66PSNyn0IQOkekugExeLpE7s5Wgo=",
   "Source": "Projeto-Gamer2",
   "BasePath": "_content/Projeto-Gamer2",
   "Mode": "Default",
@@ -83,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\48527217856\\Desktop\\exercicios\\Projeto-Gamer2\\wwwroot\\img\\Equipes\\logo_corinthians_001.jpg",
+      "SourceId": "Projeto-Gamer2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48527217856\\Desktop\\exercicios\\Projeto-Gamer2\\wwwroot\\",
+      "BasePath": "_content/Projeto-Gamer2",
+      "RelativePath": "img/Equipes/logo_corinthians_001.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Equipes\\logo_corinthians_001.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\48527217856\\Desktop\\exercicios\\Projeto-Gamer2\\wwwroot\\img\\Equipes\\padrao.png",
+      "SourceId": "Projeto-Gamer2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48527217856\\Desktop\\exercicios\\Projeto-Gamer2\\wwwroot\\",
+      "BasePath": "_content/Projeto-Gamer2",
+      "RelativePath": "img/Equipes/padrao.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Equipes\\padrao.png"
     },
     {
       "Identity": "C:\\Users\\48527217856\\Desktop\\exercicios\\Projeto-Gamer2\\wwwroot\\img\\Equipes\\vasco.png",

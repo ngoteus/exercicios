@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\48527217856\\Desktop\\exercicios\\Projeto-Gamer2\\wwwroot\\img\\Equipes\\logo_corinthians_001.jpg",
+      "PackagePath": "staticwebassets\\img\\Equipes\\logo_corinthians_001.jpg"
+    },
+    {
+      "Id": "C:\\Users\\48527217856\\Desktop\\exercicios\\Projeto-Gamer2\\wwwroot\\img\\Equipes\\padrao.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\padrao.png"
+    },
+    {
       "Id": "C:\\Users\\48527217856\\Desktop\\exercicios\\Projeto-Gamer2\\wwwroot\\img\\Equipes\\vasco.png",
       "PackagePath": "staticwebassets\\img\\Equipes\\vasco.png"
     },

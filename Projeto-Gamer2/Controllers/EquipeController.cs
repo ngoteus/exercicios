@@ -84,7 +84,56 @@ namespace Projeto_Gamer2.Controllers
 
                 return LocalRedirect("~/Equipe/Listar");
         }
+        [Route("Editar/{id}")]
 
+        public IActionResult Editar(int id)
+        {
+            Equipe equipe = c.Equipe.First(x => x.IdEquipe == id);
+
+            ViewBag.Equipe = equipe;
+
+            return View("Edit");
+        }
+
+        [Route("Atualizar")]
+        public IActionResult Atualizar(IFormCollection form)
+        {
+            Equipe equipe = new Equipe();
+
+            equipe.IdEquipe = int.Parse(form["IdEquipe"].ToString());
+
+            equipe.Nome = form["Nome"].ToString();
+
+            if (form.Files.Count > 0)
+            {
+                var file = form.Files[0];
+
+                var folder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/Equipes");
+
+                if (!Directory.Exists(folder))
+                {
+                    Directory.CreateDirectory(folder);
+                }
+                var path = Path.Combine(folder, file.FileName);
+                using (var stream = new FileStream(path, FileMode.Create))
+                {
+                    file.CopyTo(stream);
+                }
+                equipe.Imagem = file.FileName;
+            
+            }
+            else
+            {
+                equipe.Imagem = "padrao.png";
+            }
+
+            Equipe equipebuscada = c.Equipe.First(x => x.IdEquipe == equipe.IdEquipe);
+            equipebuscada.Nome = equipe.Nome;
+            equipebuscada.Imagem = equipe.Imagem;
+            c.Equipe.Update(equipebuscada);
+            c.SaveChanges();
+            return LocalRedirect("~/Equipe/Listar");
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
