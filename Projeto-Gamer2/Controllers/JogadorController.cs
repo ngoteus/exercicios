@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Projeto_Gamer2.Infra;
+using Projeto_Gamer2.Models;
 
 namespace Projeto_Gamer2.Controllers
 {
@@ -21,6 +22,7 @@ namespace Projeto_Gamer2.Controllers
 
         Context c = new Context();
 
+        [Route("Listar")]
         public IActionResult Index()
         {
             ViewBag.Jogador=c.Jogador.ToList();
@@ -28,6 +30,19 @@ namespace Projeto_Gamer2.Controllers
             
             return View();
         }
+        [Route("Cadastrar")]
+
+        public IActionResult Cadastrar(IFormCollection form)
+        {
+            Jogador novoJogador = new Jogador();
+
+            novoJogador.Nome = form["Nome"].ToString();
+
+            return LocalRedirect("~/Jogador/Listar");
+        }
+
+       
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

@@ -31,9 +31,22 @@
     </thead>
 
     <tbody>
-        @foreach (var jogador in IdJogador)
+        @foreach (var jogador in ViewBag.Jogador)
         {
-            
+        <tr>
+            <td>@jogador.IdJogador</td>
+            <td>@jogador.Nome</td>
+            <td>
+                <img src="/img/Equipes/@jogador.Imagem" alt="Imagem da equipe @jogador.Nome" width="50px">
+            </td>
+            <td>
+                <a asp-area="" asp-controller="Jogador" asp-action="Excluir" asp-route-id="@jogador.IdJogador">Excluir</a>
+            </td>
+            <td>
+                <a asp-area="" asp-controller="Jogador" asp-action="Editar" asp-route-id="@jogador.IdJogador">Editar</a>
+            </td>
+        </tr>
+        
         }
     </tbody>
 </table>
