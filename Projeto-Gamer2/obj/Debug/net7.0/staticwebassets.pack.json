@@ -245,6 +245,14 @@
       "PackagePath": "staticwebassets\\css\\Header-footer.css"
     },
     {
+      "Id": "C:\\Users\\48527217856\\Desktop\\exercicios\\Projeto-Gamer2\\wwwroot\\css\\equipes.css",
+      "PackagePath": "staticwebassets\\css\\equipes.css"
+    },
+    {
+      "Id": "C:\\Users\\48527217856\\Desktop\\exercicios\\Projeto-Gamer2\\wwwroot\\css\\jogadores.css",
+      "PackagePath": "staticwebassets\\css\\jogadores.css"
+    },
+    {
       "Id": "C:\\Users\\48527217856\\Desktop\\exercicios\\Projeto-Gamer2\\wwwroot\\css\\login.css",
       "PackagePath": "staticwebassets\\css\\login.css"
     },

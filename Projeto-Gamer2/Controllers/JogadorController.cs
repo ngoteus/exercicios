@@ -65,6 +65,7 @@ namespace Projeto_Gamer2.Controllers
         [Route("Editar/{id}")]
         public IActionResult Editar(int id)
         {
+            ViewBag.UserName = HttpContext.Session.GetString("UserName");
 
             Jogador jogador = c.Jogador.First(j => j.IdJogador == id);
 
@@ -80,11 +81,11 @@ namespace Projeto_Gamer2.Controllers
         {
             Jogador novoJogador = new Jogador();
 
-            novoJogador.IdJogador = int.Parse(form["IdJogador"]);
-            novoJogador.Nome = form["Nome"].ToString();
-            novoJogador.Email = form["Email"].ToString();
-            novoJogador.Senha = form["Senha"].ToString();
-            novoJogador.IdEquipe = int.Parse(form["IdEqupe"].ToString());
+            novoJogador.IdJogador = int.Parse(form["IdJogador"].ToString());
+            novoJogador.Nome = form["NomeJogador"].ToString();
+            novoJogador.Email = form["EmailJogador"].ToString();
+            novoJogador.Senha = form["SenhaJogador"].ToString();
+            novoJogador.IdEquipe = int.Parse(form["IdEquipe"].ToString());
 
             Jogador jogadorBuscado = c.Jogador.First(j => j.IdJogador == novoJogador.IdJogador);
 
@@ -94,7 +95,7 @@ namespace Projeto_Gamer2.Controllers
             jogadorBuscado.Senha = novoJogador.Senha;
             jogadorBuscado.IdEquipe = novoJogador.IdEquipe;
 
-            c.Jogador.Update(novoJogador);
+            c.Jogador.Update(jogadorBuscado);
             c.SaveChanges();
 
             return LocalRedirect("~/Jogador/Listar");

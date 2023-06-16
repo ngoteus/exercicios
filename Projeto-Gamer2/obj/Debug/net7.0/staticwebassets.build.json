@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vARSKhCEPEn/l7WoRP/cDiFSJE+5zqNmzP5c/URtksQ=",
+  "Hash": "eTjOVBxTpGbVXI/K/+FaKVeSvMXUp/42sitiUq3j+Z4=",
   "Source": "Projeto-Gamer2",
   "BasePath": "_content/Projeto-Gamer2",
   "Mode": "Default",
@@ -1054,6 +1054,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\vector-user.svg"
     },
     {
+      "Identity": "C:\\Users\\48527217856\\Desktop\\exercicios\\Projeto-Gamer2\\wwwroot\\css\\equipes.css",
+      "SourceId": "Projeto-Gamer2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48527217856\\Desktop\\exercicios\\Projeto-Gamer2\\wwwroot\\",
+      "BasePath": "_content/Projeto-Gamer2",
+      "RelativePath": "css/equipes.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\equipes.css"
+    },
+    {
       "Identity": "C:\\Users\\48527217856\\Desktop\\exercicios\\Projeto-Gamer2\\wwwroot\\css\\Header-footer.css",
       "SourceId": "Projeto-Gamer2",
       "SourceType": "Discovered",
@@ -1069,6 +1086,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Header-footer.css"
+    },
+    {
+      "Identity": "C:\\Users\\48527217856\\Desktop\\exercicios\\Projeto-Gamer2\\wwwroot\\css\\jogadores.css",
+      "SourceId": "Projeto-Gamer2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48527217856\\Desktop\\exercicios\\Projeto-Gamer2\\wwwroot\\",
+      "BasePath": "_content/Projeto-Gamer2",
+      "RelativePath": "css/jogadores.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\jogadores.css"
     },
     {
       "Identity": "C:\\Users\\48527217856\\Desktop\\exercicios\\Projeto-Gamer2\\wwwroot\\css\\login.css",

@@ -3,8 +3,54 @@
 @{
     ViewData["Title"] = "Edit";
 }
-<h1>Edicao de Jogadores</h1>
-<form method="post" action='@Url.Action("Atualizar")'></form>
+
+
+
+<main>
+    <section class="container-grid cadastro-equipes">
+        @if (ViewBag.UserName == null)
+        {
+         <a class="navbar-brand" asp-area="" asp-controller="Login" asp-action="Index">
+            Login
+         </a> 
+
+        }
+        else
+        {
+            <form class="frm-cad-equipe" method="post" action='@Url.Action("Atualizar")'>
+                <div class="cadequipe-titulo">
+                    <h1>Atualizacao de Jogadores</h1>
+                    <hr>
+                </div>
+
+                <input type="hidden" name="IdJogador" value="@ViewBag.Jogador.IdJogador">
+                <input class="campo-entrada" type="text" name="NomeJogador" id="nome-jogador" placeholder="Digite o nome do Jogador:" required value="@ViewBag.Jogador.Nome">
+                <input class="campo-entrada" type="email" name="EmailJogador" id="email-jogador" placeholder="Digite o Email do Jogador:" required value="@ViewBag.Jogador.Email">
+                <input class="campo-entrada" type="password" name="SenhaJogador" id="senha" placeholder="Digite a Senha:" required value="@ViewBag.Jogador.Senha">
+                <select class="campo-entrada" name="IdEquipe" id="equipe-select" required>
+                    <option value="0">Selecione uma opção: </option>
+                     @foreach (Equipe equipe in ViewBag.Equipe)
+                    {
+                        @if (equipe.IdEquipe == @ViewBag.Jogador.IdEquipe)
+                        {
+                            <option value="@equipe.IdEquipe" selected>@equipe.Nome</option>
+                        }
+                        else
+                        {
+                            <option value="@equipe.IdEquipe">@equipe.Nome</option>
+                        }
+                    }
+                </select>
+                <button type="submit">Atualizar</button>
+            </form>
+        }
+    
+            
+        
+    </section>
+</main>
+
+@* <form method="post" action='@Url.Action("Atualizar")'></form>
 
 
 <form action="">
@@ -40,4 +86,4 @@
 
 <button></button>
 
-</form>
+</form> *@

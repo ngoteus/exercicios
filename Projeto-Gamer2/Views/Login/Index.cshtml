@@ -9,7 +9,7 @@
 
 <!-- FORMULÁRIO DE LOGIN -->
     <main class="fundo-login">
-       <span>@TempData.Peek("Message")</span> 
+        
         <div class="bkg-login">
             <form class="frm-login" method="post" action="@Url.Action("Logar")">
                 <div class="login-title">
@@ -30,6 +30,8 @@
                 </div>
 
                 <button class="btn-logar">Logar</button>
+                <br>
+       <span>@TempData.Peek("Message")</span> 
             </form>
         </div>
 
